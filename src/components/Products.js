@@ -34,7 +34,7 @@ const Products = () => {
 
     return (
         <>
-            <h2 style={{ color: '#263846' }}>Made Fresh with Only the Finest Ingredients</h2>
+            <h2 style={{ color: '#263846' }}>Made Fresh with Organic, Locally-Sourced Ingredients</h2>
             <ProductsWrapper>
                 {products.map((p, i) =>
                     <ProductWrapper key={i}>
